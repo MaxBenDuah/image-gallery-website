@@ -1,0 +1,199 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: whitesmoke;
+  /* margin: 0 45px; */
+}
+
+div.header {
+  height: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.header .active {
+  border-bottom: 2px solid #1ABC9C;
+}
+
+div.header a {
+  text-decoration: none;
+  color: #444444;
+  font-size: 0.9rem;
+  font-family: 'Gotham Narrow SSm A' , 'Gotham Narrow SSm B', sans-serif;
+  margin: 2em;
+}
+
+div.header button {
+  border: none;
+  background: white;
+  border: 1px solid black;
+  padding: 8px 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #333333;
+}
+
+div.main {
+  background: url('./pixiset-image.png') no-repeat center center scroll;
+  background-size: 80% 80%;
+  height: 800px;
+  text-align: center;
+}
+
+div.main p.paragraph-main {
+  color: #5F5F5F;
+  font-family: fantasy;
+  font-weight: bold;
+  margin: 25px 25px;
+}
+
+div.main button {
+  background: #1ABC9C;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 16px 68px;
+  border: none;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+div.main h1 {
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-size: 1.9rem;
+}
+
+div.bottom-subscribe-form {
+  width: 100%;
+  margin: auto;
+  margin-top: 200em;
+  text-align: center;
+}
+
+div.bottom-subscribe-form .p-heading {
+  font-size: 2.9rem;
+  color: #444444;
+  font-family: 'garamond-premier-pro-display';
+  font-weight: lighter;
+}
+
+div.bottom-subscribe-form .call-to-action-text {
+  font-family: 'Gotham Narrow SSm A' , 'Gotham Narrow SSm B', sans-serif;
+  font-weight: initial;
+}
+
+.bottom-subscribe-form input {
+  width: 40%;
+  padding: 14px 28px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+}
+
+div.bottom-subscribe-form button {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding: 14px 28px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  margin-top: 1.5em;
+}
+
+div.bottom-subscribe-form p.terms-and-conditions {
+  font-size: 0.9rem;
+  font-family: 'Gotham Narrow SSm A' , 'Gotham Narrow SSm B', sans-serif;
+  font-weight: initial;
+  color: #868686;
+}
+
+div.bottom-subscribe-form p.specific {
+  margin-bottom: 0;
+}
+
+div.bottom-subscribe-form p.specific-bottom {
+  margin-top: 10px;
+}
+
+div.bottom-subscribe-form p.terms-and-conditions a {
+  color: inherit;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #212121;
+  width: 100%;
+  padding: 45px 120px;
+  margin-top: 6em;
+}
+
+footer p {
+  color: white;
+  text-align: left;
+  margin-bottom: 2em;
+  font-size: 0.8rem;
+}
+
+footer h3 {
+  color: #DDDDDD;
+  text-align: left;
+}
+
+footer h2.logo-name {
+  color: white;
+  font-family: serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+footer p.logo-paragraph {
+  line-height: 1.8em;
+}
+
+* {
+  box-sizing: border-box;
+ }
+
+  .column img {
+    max-width: 100%;
+    height: auto;
+    padding: 0.2em 0;
+
+  }
+
+  .column {
+    padding: 0 0.3em 0 0;
+    flex: 25%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 34em 4em 0 4em;
+  }
+
+  div.copyright {
+    text-align: center;
+    background: #212121;
+    color: white;
+    padding: 4em;
+    font-size: 0.8rem;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .row .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .row .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
